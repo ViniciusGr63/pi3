@@ -1,12 +1,12 @@
 import Nav from './../../routes/Nav';
 
-function LoginPage (){
+function QuemSomos (){
     return(
         <div>
-            <p>Login_page </p>
+            <p>Quem_somos_page</p>
             <Nav/>
         </div>
     )
 }
-export default LoginPage;
+export default QuemSomos;
 

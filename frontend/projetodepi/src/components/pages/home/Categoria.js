@@ -1,12 +1,12 @@
 import Nav from './../../routes/Nav';
 
-function LoginPage (){
+function Categoria (){
     return(
         <div>
-            <p>Login_page </p>
+            <p>Categoria_page</p>
             <Nav/>
         </div>
     )
 }
-export default LoginPage;
+export default Categoria;
 
