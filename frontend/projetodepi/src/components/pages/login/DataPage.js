@@ -1,5 +1,5 @@
 //import styles from './DataPage.module.css'
-//criar o arquivo "DataPage.module.css"
+//criar o arquivo "DataPage.module.css" 
 
 //Esta página será a que exibe os dados de quem está logado no site, junto com a opção de logout.
 
@@ -13,6 +13,5 @@ function DataPage (){
 }
 export default DataPage;
 
-//importar no arquivo "import DataPage from './components/DataPage.js';"
 
-//chamar no arquivo <DataPage/>
+//<DataPage/>

@@ -1,14 +1,19 @@
-//import styles from './HomePage.module.css'
-//criar o arquivo "HomePage.module.css"
-import Nav from './../../routes/Nav';
+import styles from './index.css'
 
 
 function HomePage (){
     return(
-        <div>
-            <p>ola mundo </p>
-            <Nav/>
+        <>
+        <div>  
+
+
+            <p>home_page</p>
+
+
+
         </div>
+        </>
+        
     )
 }
 export default HomePage;
