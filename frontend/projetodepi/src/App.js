@@ -3,7 +3,10 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 //pages
 import HomePage from './components/pages/home/HomePage';
-import Categoria from './components/pages/home/Categoria';
+import CategoriaRoupa from './components/pages/categoria/CategoriaRoupa';
+import CategoriaAcessorio from './components/pages/categoria/CategoriaAcessorio';
+import CategoriaCalcado from './components/pages/categoria/CategoriaCalcado';
+import CategoriaCosmetico from './components/pages/categoria/CategoriaCosmetico';
 import QuemSomos from './components/pages/home/QuemSomos';
 import LoginPage from './components/pages/login/LoginPage';
 //components
@@ -18,7 +21,10 @@ function App() {
 
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/Categoria" element={<Categoria />} />
+          <Route path="/CategoriaRoupa" element={<CategoriaRoupa />} />
+          <Route path="/CategoriaAcessorio" element={<CategoriaAcessorio />} />
+          <Route path="/CategoriaCalcado" element={<CategoriaCalcado />} />
+          <Route path="/CategoriaCosmetico" element={<CategoriaCosmetico />} />
           <Route path="/LoginPage" element={<LoginPage />} />
           <Route path="/QuemSomos" element={<QuemSomos />} />
         </Routes>  
