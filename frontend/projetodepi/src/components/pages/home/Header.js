@@ -8,7 +8,7 @@ function Header (){
     return(
         <>
         <header>
-        <nav >         
+        <nav className={styles.nav}>         
         <ul className={styles.navEstilo}>
         <li className={styles.item}><Link to="/">Home</Link></li>
         <li className={styles.item}><DropdownMenu/></li>
