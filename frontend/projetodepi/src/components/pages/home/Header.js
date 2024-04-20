@@ -1,5 +1,5 @@
 // import Nav from './../../routes/Nav';
-// import styles from './Header.module.css';
+//import styles from './Header.module.css';
 import styles from './Nav.module.css';
 import DropdownMenu from './../../routes/MenuHome';
 import { Link } from 'react-router-dom';
@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 function Header (){
     return(
         <>
-        <header>
+        <header className={styles.HeaderStyle}>
         <nav className={styles.nav}>         
         <ul className={styles.navEstilo}>
         <li className={styles.item}><Link to="/">Home</Link></li>

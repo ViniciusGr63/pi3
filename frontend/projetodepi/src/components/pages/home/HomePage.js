@@ -1,10 +1,10 @@
-import styles from './index.css'
+import styles from './HomePage.module.css'
 
 
 function HomePage (){
     return(
         <>
-        <div>  
+        <div className={styles.HomePage}>  
 
 
             <p>home_page</p>
