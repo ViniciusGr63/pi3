@@ -1,0 +1,107 @@
+import java.util.Date;
+
+/**
+ * Esta classe representa um comentário em um sistema.
+ * Possui um nome de autor, texto do comentário e data do comentário.
+ * Também permite editar o texto do comentário e excluir o comentário.
+ *
+ * @author [Seu Nome]
+ * @version 1.0
+ */
+public class Comentario {
+
+    // Atributos da classe
+
+    private String nomeAutor;
+    private String textoComentario;
+    private Date dataComentario;
+
+    // Construtor
+
+    /**
+     * Construtor para inicializar um novo comentário.
+     *
+     * @param nomeAutor       O nome do autor do comentário.
+     * @param textoComentario O texto do comentário.
+     * @param dataComentario  A data em que o comentário foi feito.
+     */
+    public Comentario(String nomeAutor, String textoComentario, Date dataComentario) {
+        this.nomeAutor = nomeAutor;
+        this.textoComentario = textoComentario;
+        this.dataComentario = dataComentario;
+    }
+
+    // Métodos Getters e Setters
+
+    /**
+     * Obtém o nome do autor do comentário.
+     *
+     * @return O nome do autor do comentário.
+     */
+    public String getNomeAutor() {
+        return nomeAutor;
+    }
+
+    /**
+     * Define o nome do autor do comentário.
+     *
+     * @param nomeAutor O novo nome do autor do comentário.
+     */
+    public void setNomeAutor(String nomeAutor) {
+        this.nomeAutor = nomeAutor;
+    }
+
+    /**
+     * Obtém o texto do comentário.
+     *
+     * @return O texto do comentário.
+     */
+    public String getTextoComentario() {
+        return textoComentario;
+    }
+
+    /**
+     * Define o texto do comentário.
+     *
+     * @param textoComentario O novo texto do comentário.
+     */
+    public void setTextoComentario(String textoComentario) {
+        this.textoComentario = textoComentario;
+    }
+
+    /**
+     * Obtém a data do comentário.
+     *
+     * @return A data do comentário.
+     */
+    public Date getDataComentario() {
+        return dataComentario;
+    }
+
+    /**
+     * Define a data do comentário.
+     *
+     * @param dataComentario A nova data do comentário.
+     */
+    public void setDataComentario(Date dataComentario) {
+        this.dataComentario = dataComentario;
+    }
+
+    // Métodos da classe
+
+    /**
+     * Edita o texto do comentário para um novo texto especificado.
+     *
+     * @param novoTexto O novo texto do comentário.
+     */
+    public void editarTexto(String novoTexto) {
+        this.textoComentario = novoTexto;
+    }
+
+    /**
+     * Exclui o comentário.
+     */
+    public void excluir() {
+        // Lógica para excluir o comentário
+    }
+}
