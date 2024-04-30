@@ -1,6 +1,6 @@
 import java.util.Date;
 
-public class Comentario {
+public class Commentary {
 
     private String nomeAutor;
     private String textoComentario;
@@ -16,13 +16,10 @@ public class Comentario {
         return nomeAutor;
     }
 
-    public void setNomeAutor(String nomeAutor) {
-        this.nomeAutor = nomeAutor;
-    }
-
     public String getTextoComentario() {
         return textoComentario;
     }
+    
     public void setTextoComentario(String textoComentario) {
         this.textoComentario = textoComentario;
     }
@@ -35,10 +32,5 @@ public class Comentario {
     public void setDataComentario(Date dataComentario) {
         this.dataComentario = dataComentario;
     }
-    public void editarTexto(String novoTexto) {
-        this.textoComentario = novoTexto;
-    }
-    public void excluir() {
-
-    }
+   
 }
