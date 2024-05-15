@@ -14,7 +14,7 @@ public class FirebaseConfig {
         FileInputStream serviceAccount =
             new FileInputStream("./backtestefirebase-firebase-adminsdk-hezcf-93cbe6be40.json");
 
-        FirebaseOptions options = FirebaseOptions.newBuilder()
+        FirebaseOptions options = FirebaseOptions.builder()
             .setCredentials(GoogleCredentials.fromStream(serviceAccount))
             .build();
 
