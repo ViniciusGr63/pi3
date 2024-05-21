@@ -16,8 +16,10 @@ import Header from './components/pages/home/Header';
 function App() {
   return (
     <div className="App">
+     
       <Router>    
         <Header/>
+        
 
         <Routes>
           <Route path="/" element={<HomePage />} />
