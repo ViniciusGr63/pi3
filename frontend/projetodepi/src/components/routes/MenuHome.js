@@ -15,10 +15,10 @@ const DropdownMenu = () => {
 
   return (
     <div className="dropdown" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-      <button className="dropdown-toggle">Categoria</button>
+      <button className="dropdown-toggle category-button">CATEGORIAS</button>
       {isOpen && (
         <ul className="dropdown-menu">
-          <li lassName={styles.linkstyle}><Link to="/CategoriaRoupa">Roupas</Link></li>
+          <li className={styles.linkstyle}><Link to="/CategoriaRoupa">Roupas</Link></li>
           <li className={styles.linkstyle}><Link to="/CategoriaCalcado">Calçados</Link></li>
           <li className={styles.linkstyle}><Link to="/CategoriaAcessorio">Acessórios</Link></li>
           <li className={styles.linkstyle}><Link to="/CategoriaCosmetico">Cosméticos</Link></li>

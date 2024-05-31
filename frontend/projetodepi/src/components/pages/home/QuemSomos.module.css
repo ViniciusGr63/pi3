@@ -4,7 +4,7 @@
   align-items: center;
   padding: 20px;
   min-height: 100vh;
-  background-color: #f7f7f7; /* Cor de fundo suave */
+  
 }
 
 .background-image-container {
@@ -14,7 +14,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: -150px; /* Para sobrepor a descrição */
+  margin-bottom: -150px;
 }
 
 .background-image {
@@ -47,5 +47,6 @@
   max-width: 600px;
   width: 100%;
   text-align: justify;
+  margin: 0 auto;
 }
 

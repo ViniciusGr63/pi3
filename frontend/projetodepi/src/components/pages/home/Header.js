@@ -10,13 +10,16 @@ function Header (){
         <>
         <header className={styles.HeaderStyle}>
         
-       <img src={LogoC} alt="Logo_ComCom" />
+        <div className={styles.logoContainer}>
+    <img src={LogoC} alt="Logo_ComCom" className={styles.logo} />
+    <span className={styles.consumoConsciente}>CONSUMO CONSCIENTE</span>
+      </div>
         <nav className={styles.nav}>         
         <ul className={styles.navEstilo}>
-        <li className={styles.item}><Link to="/">Home</Link></li>
+        <li className={styles.item}><Link to="/">HOME</Link></li>
         <li className={styles.item}><DropdownMenu/></li>
-        <li className={styles.item}><Link to="/LoginPage">Login</Link></li>
-        <li className={styles.item}><Link to="/QuemSomos">Quem somos</Link></li>
+        <li className={styles.item}><Link to="/LoginPage">LOGIN</Link></li>
+        <li className={styles.item}><Link to="/QuemSomos">QUEM SOMOS</Link></li>
 
       </ul>          
         </nav>
