@@ -9,6 +9,8 @@ import CategoriaCalcado from './components/pages/categoria/CategoriaCalcado';
 import CategoriaCosmetico from './components/pages/categoria/CategoriaCosmetico';
 import QuemSomos from './components/pages/home/QuemSomos';
 import LoginPage from './components/pages/login/LoginPage';
+import DataPage from './components/pages/login/DataPage';
+import RegisterPage from './components/pages/login/RegisterPage';
 //components
 import Header from './components/pages/home/Header';
 
@@ -28,6 +30,8 @@ function App() {
           <Route path="/CategoriaCalcado" element={<CategoriaCalcado />} />
           <Route path="/CategoriaCosmetico" element={<CategoriaCosmetico />} />
           <Route path="/LoginPage" element={<LoginPage />} />
+          <Route path="/DataPage" element={<DataPage />}/>
+          <Route path="/RegisterPage" element={<RegisterPage />}/>
           <Route path="/QuemSomos" element={<QuemSomos />} />
         </Routes>  
       </Router>

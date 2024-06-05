@@ -77,6 +77,7 @@ p{
     left: 80px;
     display: flex;
     align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .searchInput {
@@ -84,14 +85,14 @@ p{
     background-color: #D9D9D9;
     padding: 10px;
     border: 1px solid #ccc;
-    border-radius: 4px 0 0 4px;
+    border-radius: 0px;
     outline: none;
 }
 
 .searchIcon {
     background-color: #ffffff;
     padding: 10px;
-    border-radius: 0 4px 4px 0;
+    border-radius: 0px;
     
     height: 16px; 
     width: 19px; 
